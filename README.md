@@ -39,13 +39,13 @@ grunt.initConfig({
 Type: `String`
 Default value: `'localhost'`
 
-主机地址
+涓绘満鍦板潃
 
 #### options.port
 Type: `Int`
 Default value: `2425`
 
-监听端口
+鐩戝惉绔彛
 
 ### Usage Examples
 http://localhost:2425/ run task 'default'
