@@ -27,7 +27,7 @@ grunt.initConfig({
   web: {
     server: {
       host:"localhost",
-	  port:2425
+	  port:8801
     }
   },
 });
@@ -43,7 +43,7 @@ Default value: `'localhost'`
 
 #### options.port
 Type: `Int`
-Default value: `2425`
+Default value: `8801`
 
 监听端口
 
