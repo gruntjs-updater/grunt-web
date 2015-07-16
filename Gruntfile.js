@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         
         web: {
             server: {
-                host: "192.168.1.192",
+                host: "localhost",
                 port: 8801
             }
         }
@@ -33,12 +33,6 @@ module.exports = function (grunt) {
     grunt.loadTasks('tasks');
     
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-nodeunit');
     
     grunt.registerTask('default', ['jshint', 'web']);
-    
-    grunt.registerTask('test', function () {
-        console.log("test");
-    });
 };
