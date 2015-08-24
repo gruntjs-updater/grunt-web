@@ -48,9 +48,9 @@ Default value: `8801`
 监听端口
 
 ### Usage Examples
-http://localhost:8801/ run task 'default'
-or
-http://localhost:8801/?t=jshint
-or
-http://localhost:8801/?t=default,jshint  run task 'default' and 'jshint'
+	http://localhost:8801/ run task 'default'
+	or
+	http://localhost:8801/?t=jshint
+	or
+	http://localhost:8801/?t=default,jshint  run task 'default' and 'jshint'
 
