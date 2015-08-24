@@ -37,12 +37,14 @@ grunt.initConfig({
 
 #### options.host
 Type: `String`
+
 Default value: `'localhost'`
 
 主机地址
 
 #### options.port
 Type: `Int`
+
 Default value: `8801`
 
 监听端口
